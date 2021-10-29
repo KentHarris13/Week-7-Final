@@ -1,0 +1,25 @@
+
+Results for the tinyArray
+insert 34.5 μs
+append 74.8 μs
+
+Results for the smallArray
+insert 33.8 μs
+append 73.9 μs
+
+Results for the mediumArray
+insert 34 μs
+append 74.4 μs
+
+
+Results for the largeArray
+insert 34.3 μs
+append 79.7 μs
+
+Results for the ExtraLargeArray
+Insert 965.3069 ms
+Append 2.4625 ms
+
+Just looking at the insert there really isn't much difference until you look at the ExtraLargeArray almost taking a full second.
+Starting with the tinyArray going up the append does very slowly go up taking just a bit longer. 
+I do believe If i were to run these test 10 times over the average amount would show the smallest being the fastest and the biggest taking the longest.
